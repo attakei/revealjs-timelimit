@@ -8,7 +8,33 @@ This is possible to jump for special section if you are arrived time-limit in sp
 
 ## Usage
 
-(TBD)
+Currently, there are bundled files hosted in GitHub Pages.
+
+When your presentation showing progress 5 minutes, move for special section displaying "TIME IS OVER!!".
+
+### Simple style
+
+```html
+  <script src="https://attakei.github.io/revealjs-timelimit/timelimit.js"></script>
+  <script>
+    Reveal.initialize({
+      plugins: [ RevealTimelimit ]
+    });
+  </script>
+```
+
+### ES Module style
+
+```html
+  <script type="module">
+    import Reveal from "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.2/reveal.esm.min.js";
+    import Timelimit from "https://attakei.github.io/revealjs-timelimit/timelimit.esm.js";
+    Reveal.initialize({
+      plugins: [ Timelimit ]
+    });
+  </script>
+```
+
 
 ## License
 
