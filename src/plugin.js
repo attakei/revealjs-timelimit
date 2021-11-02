@@ -1,6 +1,6 @@
 const createFinishSection = () => {
   const section = document.createElement("section");
-  section.innerHTML = "Shutdown!";
+  section.innerHTML = "TIME IS OVER!!";
   return section;
 };
 
