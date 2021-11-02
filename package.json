@@ -1,0 +1,24 @@
+{
+  "name": "revealjs-timelimit",
+  "version": "0.1.0",
+  "description": "Reveal.js plugin to interrupt presentations forcely when time is over",
+  "scripts": {
+    "format": "prettier --write src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/attakei/revealjs-timeout.git"
+  },
+  "keywords": [
+    "Reveal.js"
+  ],
+  "author": "Kazuya Takei",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/attakei/revealjs-timeout/issues"
+  },
+  "homepage": "https://github.com/attakei/revealjs-timeout#readme",
+  "devDependencies": {
+    "prettier": "^2.4.1"
+  }
+}
