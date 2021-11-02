@@ -20,9 +20,9 @@ const Plugin = () => {
       deck.on("ready", () => {
         console.debug("Start timer of revealjs-timelimit");
         setTimeout(() => shutdownPresentation(deck), 300 * 1000);
-       });
-    }
-  }
-}
+      });
+    },
+  };
+};
 
 export default Plugin;
