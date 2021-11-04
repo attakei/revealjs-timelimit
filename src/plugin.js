@@ -38,9 +38,26 @@ const Plugin = () => {
   return {
     id: "timelimit",
     init: (deck) => {
-      deck.on("ready", () => {
-        console.debug("Start timer of revealjs-timelimit");
-        setTimeout(() => shutdownPresentation(deck), 300 * 1000);
+      let timerEnabled = true;
+      let timerId = null;
+      deck.on("slidechanged", () => {
+        if (!timerEnabled) {
+          return;
+        }
+        if (timerId === null) {
+          console.debug("Start timer of revealjs-timelimit");
+          timerId = setTimeout(() => {
+            timerEnabled = false;
+            shutdownPresentation(deck);
+          }, 300 * 1000);
+          return;
+        }
+        if (deck.isLastSlide()) {
+          console.debug("Conguraturations!! You arrived at last of slide.");
+          clearTimeout(timerId);
+          timerEnabled = false;
+          return;
+        }
       });
     },
   };
