@@ -6,6 +6,13 @@ This is Reveal.js plugin to interrupt presentations forcely when time is over.
 
 This is possible to jump for special section if you are arrived time-limit in speaking at "lightning-talks".
 
+## Demo
+
+Hosing at GitHub Pages
+
+* [English](https://attakei.github.io/revealjs-timelimit/index-en.html)
+* [Japanese](https://attakei.github.io/revealjs-timelimit/index-ja.html)
+
 ## Usage
 
 Currently, there are bundled files hosted in GitHub Pages.
