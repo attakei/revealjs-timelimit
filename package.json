@@ -21,6 +21,7 @@
   "homepage": "https://github.com/attakei/revealjs-timeout#readme",
   "devDependencies": {
     "prettier": "^2.4.1",
-    "rollup": "^2.59.0"
+    "rollup": "^2.59.0",
+    "rollup-plugin-license": "^2.6.0"
   }
 }
