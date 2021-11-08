@@ -42,6 +42,22 @@ When your presentation showing progress 5 minutes, move for special section disp
   </script>
 ```
 
+## Configuration
+
+When you initialize Reval.js, configure by `timelimit` key.
+Show usage and default values.
+
+```js
+Reveal.initialze({
+  plugins: [ Timelimit ],
+  timelimit: {
+    // Time to shutdown (seconds)
+    timeout: 600,
+    // Content to display for shutdown
+    content: "TIME IS OVER!",
+  },
+});
+```
 
 ## License
 
