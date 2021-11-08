@@ -20,7 +20,7 @@ const createFinishSection = () => {
  * Go to SHUTDOWN section
  * When it call this function, insert SHUTDOWN section at last and move last of slide.
  *
- * @params {Reveal} Reveal.js presentation
+ * @param {Reveal} deck - Reveal.js presentation
  */
 const shutdownPresentation = (deck) => {
   console.debug("Time is over!! Shutdown presentation");
