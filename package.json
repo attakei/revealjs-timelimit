@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/attakei/revealjs-timeout.git"
+    "url": "git+https://github.com/attakei/revealjs-timelimit.git"
   },
   "keywords": [
     "Reveal.js"
@@ -16,9 +16,9 @@
   "author": "Kazuya Takei",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/attakei/revealjs-timeout/issues"
+    "url": "https://github.com/attakei/revealjs-timelimit/issues"
   },
-  "homepage": "https://github.com/attakei/revealjs-timeout#readme",
+  "homepage": "https://github.com/attakei/revealjs-timelimit#readme",
   "devDependencies": {
     "prettier": "^2.4.1",
     "rollup": "^2.59.0",
