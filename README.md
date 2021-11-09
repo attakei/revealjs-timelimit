@@ -22,7 +22,7 @@ When your presentation showing progress 5 minutes, move for special section disp
 ### Simple style
 
 ```html
-  <script src="https://attakei.github.io/revealjs-timelimit/timelimit.js"></script>
+  <script src="https://attakei.github.io/revealjs-timelimit/timelimit.min.js"></script>
   <script>
     Reveal.initialize({
       plugins: [ RevealTimelimit ]

@@ -18,6 +18,8 @@ jobs:
           npm install
           npm run build
       - run: |
+          sed -i -e 's|\.\./dist|https://attakei.github.io/revealjs-timelimit|' demo/index-ja.html
+          sed -i -e 's|\.\./dist|https://attakei.github.io/revealjs-timelimit|' demo/index-en.html
           cp demo/* dist/
           echo $GITHUB_SHA >> dist/index.html
       - name: Deploy to GitHub Pages
