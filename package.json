@@ -1,6 +1,6 @@
 {
   "name": "revealjs-timelimit",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Reveal.js plugin to interrupt presentations forcely when time is over",
   "scripts": {
     "format": "prettier --write src/ rollup.config.js",
