@@ -96,8 +96,21 @@ Reveal.initialize({
 
 ### 設定
 
-`Reveal.initialize`時に、`timelimit`というオプションで設定を変更できる...ようになる予定です。
+`Reveal.initialize`時に、`timelimit`というオプションで設定を変更できます。
 
+```javascript
+Reveal.initialize({
+  plugins: [ RevealTimelimit ],
+  timelimit: {
+    // 強制終了になった際に、表示するメッセージ
+    // デフォルトでは、"TIME IS OVER!!"という内容になっています
+    content: "強制終了！",
+    // 強制終了までの時間を秒単位で設定できます
+    // デフォルトでは、 300 = 5分が設定されています
+    timeout: 600,
+  },
+});
+```
 
 
 ## まとめ

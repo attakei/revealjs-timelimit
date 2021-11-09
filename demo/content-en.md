@@ -89,10 +89,19 @@ Reveal.initialize({
 
 ### Configuration
 
-This is under construction.
+You can use `timelimit` key in calling `Reveal.initialize`.
 
-You will be able to use `timelimit` key in calling `Reveal.initialize`.
-
+```javascript
+Reveal.initialze({
+  plugins: [ Timelimit ],
+  timelimit: {
+    // Time to shutdown (seconds)
+    timeout: 300,
+    // Content to display for shutdown
+    content: "TIME IS OVER!",
+  },
+});
+```
 
 
 ## Conclusion
