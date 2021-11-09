@@ -71,7 +71,7 @@
 
 ```html
 <script src="https://cdn.jsdelivr.net/npm/reveal.js@4/dist/reveal.min.js"></script>
-<script src="https://attakei.github.io/revealjs-timelimit/timelimit.js"></script>
+<script src="https://attakei.github.io/revealjs-timelimit/timelimit.min.js"></script>
 <script>
 Reveal.initialize({
   plugins: [ RevealTimelimit ],
