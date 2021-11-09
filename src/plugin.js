@@ -16,7 +16,7 @@ const DefaultConfig = {
    *
    * @type {number}
    */
-  timeout: 600,
+  timeout: 300,
   /**
    * Message of shutdown slide
    *

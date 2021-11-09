@@ -52,7 +52,7 @@ Reveal.initialze({
   plugins: [ Timelimit ],
   timelimit: {
     // Time to shutdown (seconds)
-    timeout: 600,
+    timeout: 300,
     // Content to display for shutdown
     content: "TIME IS OVER!",
   },
